@@ -1,0 +1,109 @@
+<html>
+<head>
+	<h1>Ghummakad</h1>
+	<title>Ghummakad</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</head>
+<body style="background-color:Dodgerblue">
+	<h1><center></center></h1>
+		<br><br><br><br><br><br><br>
+			<p><center><b>This is a very good platform for you it's provides earninig and show ads on your browser by the advertiser</b></center></p>
+				<div class="container">
+					<center>
+						<button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#signIn">Sign-in</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="signUp" role="dialog">
+    <div class="modal-dialog modal-lg">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+			<h2><b>Sign-Up</h2>
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h4 class="modal-title">Welcome</h4>
+        </div>
+        <div class="modal-body">
+    <form action="signUp.php" method="post">
+			<div class="form-group">
+				<div class="col-xs-4">
+				<label for="first name">First Name:</label>
+					<input type="text" class="form-control" id="first" placeholder="First Name" name="first">
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="col-xs-4">
+				<label for="last name">Last Name:</label>
+					<input type="text" class="form-control" id="last" placeholder="Last Name" name="last">
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="email">Email:</label>
+					<input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+			</div>
+		<div class="form-group">
+			<label for="pwd">Password:</label>
+				<input type="password" class="form-control" id="pswd" placeholder="Enter password" name="pswd">
+		</div>
+		<div class="form-group form-check">
+			<label class="form-check-label">
+				<input class="form-check-input" type="checkbox" name="remember"> Remember me
+			</label>
+		</div>
+		<button type="submit" class="btn btn-primary">Submit</button>
+	</form>
+        </div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+      </div>
+      
+    </div>
+  </div>
+		<button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#signUp">Sign-up</button>
+
+  <!-- Modal -->
+		<div class="modal fade" id="signIn" role="dialog">
+			<div class="modal-dialog">
+    
+      <!-- Modal content-->
+				<div class="modal-content">
+					<div class="modal-header" style="background-color:success">
+						<h2><b>Sign-in</h2>
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Welcome</h4>
+					</div>
+					<div class="modal-body">
+          <form action="signIn.php" method="post">
+			<div class="form-group">
+				<label for="email">Email:</label>
+				<input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+			</div>
+    <div class="form-group">
+		<label for="pwd">Password:</label>
+		<input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+    </div>
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> Remember me
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+                 </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+				</div>
+      
+			</div>
+		</div>
+
+	</div>
+</body>
+</html>
